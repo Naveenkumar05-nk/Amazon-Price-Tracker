@@ -21,8 +21,8 @@ def Check_price():
     title = soup.find(id="productTitle").get_text()
     # To scrap the price using product id
     price = soup.find(id="priceblock_ourprice").get_text()
-
-    # To get only the first 7 characters of the price(to convert string into price)
+    
+#     To convert the string into float for comparison
     converted_price = float(price[1:].replace(",",""))
 
 
