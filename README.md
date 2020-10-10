@@ -4,7 +4,7 @@ Its a web scrapping project made using python.It tracks any particular product o
 
 **Modules used in the project**
 
-1**BeautifulSoup** for web scrapping
+1.**BeautifulSoup** for web scrapping
 
 2.**Requests** for handling requests
 
