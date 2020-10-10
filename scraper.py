@@ -2,6 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib 
 
+# To set the time of activation according to you
+import time
+
 # url of the product
 URL = 'https://www.amazon.in/F-Goal-Mens-Football-Jersey-Large/dp/B08DTQNCSR/ref=sr_1_44?dchild=1&keywords=football+jersey&qid=1602328910&sr=8-44https://www.amazon.in/dp/B077PWJ8RS/ref=gwdb_bmc_3_CP_Latest_Redmi9Promax?pf_rd_s=merchandised-search-7&pf_rd_t=Gateway&pf_rd_i=mobile&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_r=G7YAXTJHT0STZ64X64NY&pf_rd_p=6c1f63dd-d673-460c-aa20-1a9261118fde'
 
@@ -62,6 +65,12 @@ def send_email():
 
     server.quit()
 
+
 Check_price()    
+
+# while(True):
+
+#     Check_price()
+#     time.sleep(60*60)    
 
 
