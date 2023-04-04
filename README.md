@@ -1,6 +1,6 @@
 # Amazon-Price-Tracker
 
-Its a web scrapping project made using python.It tracks any particular product of the Amazon and keeps an eye on the price drop until it lies within the range user wants it.If it matches the given price constraint by user,an email is been sent to the user informing the price drop.
+Web scraping of Amazon products that require price tracking in order to notify customers through email when the price drops to a predetermined level.
 
 **Modules used in the project**
 
